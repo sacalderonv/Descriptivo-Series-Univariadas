@@ -398,7 +398,7 @@ acf(rec, 48, main="Recruitment")
 ```
 
 ```{r ccf}
-ccf(soi, rec, 48, main="SOI vs Recruitment", ylab="CCF")
+ccf(rec,soi, 48, main="SOI vs Recruitment", ylab="CCF")
 #Corr(rec_{t},soi_{t-h})
 #Corr(soi_{t},rec_{t-h},)
 ```
