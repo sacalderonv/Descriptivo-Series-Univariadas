@@ -830,7 +830,7 @@ Note que los valores verdaderos de $\beta_1=$ y $\beta_2=$
 beta1teor=2*cos(.6*pi)
 beta2teor=-2*sin(.6*pi)
 set.seed(90210) # fijamos una semilla para que nos dé el mismo resultado
-x = 2*cos(2*pi*1:500/10 + .6*pi) + rnorm(500,0,5)
+x = 2*cos(2*pi*1:500/50 + .6*pi) + rnorm(500,0,5)
 z1 = cos(2*pi*1:500/50)
 z2 = sin(2*pi*1:500/50)
 summary(fit <- lm(x~0+z1+z2)) # sin intercepto.
