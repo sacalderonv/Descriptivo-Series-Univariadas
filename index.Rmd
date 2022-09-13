@@ -3,6 +3,7 @@ title: "Analisis Descriptivo de Series de Tiempo en R"
 #output: github_document
 output: html_document
 always_allow_html: true
+bibliography: bibliodescriptiva.bib
 ---
 
 ```{r setup, include=FALSE}
